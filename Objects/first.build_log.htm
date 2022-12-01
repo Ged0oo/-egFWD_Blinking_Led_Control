@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Mohamed Nagy mohmmednagy2020@gmail.com, 123, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.13.1
+Assembler:       Armasm.exe V6.13.1
+Linker/Locator:  ArmLink.exe V6.13.1
+Library Manager: ArmAr.exe V6.13.1
+Hex Converter:   FromElf.exe V6.13.1
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.0.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+E:\egFWD\Advanced\Projects\egFWD_Blinking_Led_Control\uVisionProject\first.uvprojx
+Project File Date:  11/30/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.13.1', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+compiling Dio_Lcfg.c...
+compiling Led.c...
+compiling Gpt_Lcfg.c...
+egFWD_Blinking_Led_Control/Src/Config/Systick_Lcfg.c(15): warning: In file included from...
+./egFWD_Blinking_Led_Control/Src/Config/Systick_Cfg.h(91): warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif  SYSTICK_CFG_H
+        ^
+1 warning generated.
+compiling Systick_Lcfg.c...
+compiling IntCtrl_Lcfg.c...
+egFWD_Blinking_Led_Control/Src/Appl/main.c(4): warning: In file included from...
+./egFWD_Blinking_Led_Control/Src/Mcal/Inc\Systick.h(17): warning: In file included from...
+./egFWD_Blinking_Led_Control/Src/Config\Systick_Cfg.h(91): warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif  SYSTICK_CFG_H
+        ^
+egFWD_Blinking_Led_Control/Src/Appl/main.c(4): warning: In file included from...
+./egFWD_Blinking_Led_Control/Src/Mcal/Inc\Systick.h(53): warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif  SYSTIC_H
+        ^
+2 warnings generated.
+compiling main.c...
+compiling Dio.c...
+assembling startup_TM4C123.s...
+compiling IntCtrl.c...
+egFWD_Blinking_Led_Control/Src/Mcal/Systic.c(17): warning: In file included from...
+./egFWD_Blinking_Led_Control/Src/Mcal/Inc\Systick.h(17): warning: In file included from...
+./egFWD_Blinking_Led_Control/Src/Config\Systick_Cfg.h(91): warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif  SYSTICK_CFG_H
+        ^
+egFWD_Blinking_Led_Control/Src/Mcal/Systic.c(17): warning: In file included from...
+./egFWD_Blinking_Led_Control/Src/Mcal/Inc\Systick.h(53): warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif  SYSTIC_H
+        ^
+2 warnings generated.
+compiling Systic.c...
+compiling Gpt.c...
+compiling system_TM4C123.c...
+linking...
+Program Size: Code=6712 RO-data=652 RW-data=24 ZI-data=664  
+FromELF: creating hex file...
+".\Objects\first.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\mohmm\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  C:\Users\mohmm\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.0.1
+      Include file:  Device\Include\TM4C123\TM4C123.h
+      Source file:   Device\Source\system_TM4C123.c
+      Source file:   Device\Source\ARM\startup_TM4C123.s
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
